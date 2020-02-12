@@ -13,6 +13,7 @@ e.g: Light mode MacOS will display the website in its original white format, but
 Install the [Stylus extension](https://add0n.com/stylus.html)
 
 ## Preview
-### Preview of theme
+### Podcast Homepage
 ![](https://userstyles.org/style_screenshots/179958_additional_35494.jpeg?r=1581522997)
+### Podcaster Page
 ![](https://userstyles.org/style_screenshots/179958_additional_35495.jpeg?r=1581524518)
