@@ -1,0 +1,106 @@
+/*	@name				Google Podcasts - Dark Theme
+*	@version			1.0
+*	@description		Dark Theme made for Google Podcasts
+*	@author				Techusiast - RolandUdv
+*	@website			https://github.com/RolandUdv
+*	@license			CC-BY
+*/	
+
+@-moz-document domain("podcasts.google.com"), domain("podcasts.google.com/") {
+    /* Auto dark theme */
+    @media (prefers-color-scheme: dark){
+    .body, .gb_Sc, .gb_Nd, .T4LgNb, .zQTmif, .SSPGKf, .gb_sa, .gb_Za, .gb_Se, .gb_Dc {
+        background-color:rgb(29, 29, 29)!important;
+        /*background-color: #555;*/
+    }
+    
+    /* links */
+    a, .VWm4C {
+        color: #e1e1e1;
+        font-weight: 900;
+    }
+    
+    /* titles */
+    .eWeGpe, .yhFgtf, .TzqEyd, .ldf2Je, .P3lo3b, .NoOODc, .VPytgf, .JCi0he {
+        color: #fff;
+        font-weight: 900;
+    }
+    
+    /* sub headers */
+    .yFWEIe, .QH3hte, .OTz6ee, .e3ZUqe, .b1VRX {
+        color: #e8e8e8;
+        font-weight: 500;
+    }
+    
+    .rJSq7e, .LrApYe, .yIsD9b, .OoINtf, .QQKgBc {
+        color: #e1e1e1;
+    }
+    
+    /* podcast lenght and links */
+    .PGfkhc, .X4Ebjb, .II6i7d {
+        color: #fff;
+        font-weight: 700;
+    }
+    
+    /* player */
+    .dq2Yed {
+        background-color:rgb(45, 45, 45)!important;
+    }
+    
+    /* player podcast title */
+    .Ut8Gr {
+        color: #e1e1e1;
+        font-weight: 700;
+    }
+    
+    /* time left, bottom left side*/
+    .MBPL8b {
+        color: #e8e8e8;
+        font-weight: 600;
+    }
+    
+    /* player icons */
+    .DPvwYc, .UO8XJc {
+         color: #e1e1e1;
+    }
+    
+    /* time left */
+    .oG0wpe {
+        color: #e8e8e8;
+        font-weight: 600;
+    }
+    
+    /* google search */
+    .gb_pf, .gb_mf, .gb_Se, .gb_Te.gb_mf {
+        background-color: #555;
+        /*color: #e1e1e1*/
+    }
+    
+    /* Play episode button */
+    .TzKEec {
+        background-color: #555;
+    }
+    
+    /* Search button */
+    .gb_Te {
+        background-color: #555;
+    }
+    /* Search button icon */
+    .gb_Te button svg, .gb_Te button img {
+        color: #e8e8e8!important;
+    }
+        
+    /* Search text */  
+    .Ax4B8, .ZAGvjd {
+        /*background-color: #555;*/
+        color: #e8e8e8!important;
+    }
+     
+    /* Sidebar menu */  
+    .gb_Ec {
+        background-color:rgb(49, 49, 49)!important; 
+        color: #e8e8e8!important;
+    }
+    
+    }
+    }
