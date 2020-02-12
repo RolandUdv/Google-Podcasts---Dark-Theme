@@ -15,3 +15,4 @@ Install the [Stylus extension](https://add0n.com/stylus.html)
 ## Preview
 ### Preview of theme
 ![](https://userstyles.org/style_screenshots/179958_additional_35494.jpeg?r=1581522997)
+![](https://userstyles.org/style_screenshots/179958_additional_35495.jpeg?r=1581524518)
