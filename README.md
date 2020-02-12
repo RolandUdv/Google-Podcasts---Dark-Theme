@@ -2,7 +2,7 @@
 
 [![Install directly with Stylus](https://userstyles.org/styles/179958/google-podcasts-dark-theme)](https://userstyles.org/styles/179958/google-podcasts-dark-theme)
 
-Dark Theme that applies to [Google Podcasts](https://podcasts.google.com/).
+Dark Theme that applies to [podcasts.google.com/](https://podcasts.google.com/).
 It can also automatically change based on if Dark Mode is enabled on your Operating System.
 
 Note: This will only work on selected browsers on selected versions e.g: Google Chrome
