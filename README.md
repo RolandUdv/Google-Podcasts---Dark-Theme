@@ -13,5 +13,5 @@ e.g: Light mode MacOS will display the website in its original white format, but
 Install the [Stylus extension](https://add0n.com/stylus.html)
 
 ## Preview
-### Coloured Chat Bubbles Enabled (with Darker Default Blue)
+### Preview of theme
 ![](https://userstyles.org/style_screenshots/179958_additional_35494.jpeg?r=1581522997)
