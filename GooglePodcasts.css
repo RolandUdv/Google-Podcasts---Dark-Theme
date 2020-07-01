@@ -1,5 +1,5 @@
 /*	@name				Google Podcasts - Dark Theme
-*	@version			v1.02
+*	@version			v1.03
 *	@description		Dark Theme made for Google Podcasts
 *	@author				Techusiast - RolandUdv
 *   @website            http://techusiast.com/
@@ -30,13 +30,15 @@ domain("podcasts.google.com/") {
 
         /* links */
         a,
-        .VWm4C {
+        .VWm4C,
+        .f4MdMc {
             color: #e1e1e1;
             font-weight: 900;
         }
 
         /* titles */
         .eWeGpe,
+        .Mji2k,
         .yhFgtf,
         .TzqEyd,
         .ldf2Je,
@@ -45,7 +47,10 @@ domain("podcasts.google.com/") {
         .VPytgf,
         .JCi0he,
         .ituUWd,
-        .aQmJ7 {
+        .aQmJ7,
+        .ZfMIwb,
+        .VGALGe,
+        .wv3SK {
             color: #fff;
             font-weight: 900;
         }
@@ -62,7 +67,8 @@ domain("podcasts.google.com/") {
         .OTz6ee,
         .e3ZUqe,
         .b1VRX,
-        .cZ7rRd {
+        .cZ7rRd,
+        .BpVHBf {
             color: #e8e8e8;
             font-weight: 500;
         }
@@ -71,14 +77,17 @@ domain("podcasts.google.com/") {
         .LrApYe,
         .yIsD9b,
         .OoINtf,
-        .QQKgBc {
+        .QQKgBc,
+        .OTAikb,
+        .QpaWg {
             color: #e1e1e1;
         }
 
         /* podcast lenght and links */
         .PGfkhc,
         .X4Ebjb,
-        .II6i7d {
+        .II6i7d,
+        .ALlaKf {
             color: #fff;
             font-weight: 700;
         }
@@ -117,7 +126,8 @@ domain("podcasts.google.com/") {
         .gb_mf,
         .gb_Se,
         .gb_Te.gb_mf,
-        .gb_3e {
+        .gb_3e,
+        .gb_8e {
             background-color: #555;
             /*color: #e1e1e1*/
         }
@@ -158,6 +168,12 @@ domain("podcasts.google.com/") {
         .fIqyif,
         .TvLR0 {
             color: #e8e8e8 !important;
+        }
+
+        /* Button on podcast episode page */
+        .wD7LYe {
+            border-color: #e8e8e8 !important;
+            border-radius: 18px !important;
         }
     }
 }
