@@ -1,5 +1,5 @@
 /*	@name				Google Podcasts - Dark Theme
-*	@version			v1.03
+*	@version			v1.04
 *	@description		Dark Theme made for Google Podcasts
 *	@author				Techusiast - RolandUdv
 *   @website            http://techusiast.com/
@@ -10,170 +10,102 @@
 
 @-moz-document domain("podcasts.google.com"),
 domain("podcasts.google.com/") {
+    :root {
+        --primary: rgb(29, 29, 29);
+        --secondary: rgb(45, 45, 45);
+        --title: #fff;
+        --subcontent: #e8e8e8;
+        --links: #e1e1e1;
+        --button: #555;
+        --sidebar: #e8e8e8;
+    }
 
     /* Auto dark theme */
     @media (prefers-color-scheme: dark) {
-
-        .body,
-        .gb_Sc,
-        .gb_Nd,
-        .T4LgNb,
-        .zQTmif,
-        .SSPGKf,
-        .gb_sa,
-        .gb_Za,
-        .gb_Se,
-        .gb_Dc {
-            background-color: rgb(29, 29, 29) !important;
-            /*background-color: #555;*/
+        body {
+            background-color: var(--primary) !important;
         }
 
-        /* links */
-        a,
-        .VWm4C,
-        .f4MdMc {
-            color: #e1e1e1;
-            font-weight: 900;
+        /* Top bar */
+        .gb_ta,
+        .gb_4a,
+        .gb_7e,
+        .gb_Oc {
+            background-color: var(--secondary) !important;
         }
 
-        /* titles */
-        .eWeGpe,
-        .Mji2k,
-        .yhFgtf,
-        .TzqEyd,
-        .ldf2Je,
-        .P3lo3b,
-        .NoOODc,
-        .VPytgf,
-        .JCi0he,
-        .ituUWd,
-        .aQmJ7,
-        .ZfMIwb,
-        .VGALGe,
-        .wv3SK {
-            color: #fff;
-            font-weight: 900;
+        a {
+            color: var(--subcontent) !important;
+            font-weight: 700 !important;
         }
 
-        /* Unsubscribe button */
-        .iRFtyd {
-            color: #fff;
-            font-weight: 600;
-        }
-
-        /* sub headers */
+        p,
         .yFWEIe,
-        .QH3hte,
-        .OTz6ee,
-        .e3ZUqe,
-        .b1VRX,
-        .cZ7rRd,
-        .BpVHBf {
-            color: #e8e8e8;
-            font-weight: 500;
-        }
-
-        .rJSq7e,
-        .LrApYe,
-        .yIsD9b,
-        .OoINtf,
-        .QQKgBc,
+        .BpVHBf,
         .OTAikb,
+        .LrApYe,
+        .ALlaKf,
+        .MBPL8b,
+        .oG0wpe,
         .QpaWg {
-            color: #e1e1e1;
+            color: var(--subcontent) !important;
+            font-weight: 400 !important
         }
 
-        /* podcast lenght and links */
+        /* Headings and other big content */
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        .eWeGpe,
+        .ZfMIwb,
+        .e3ZUqe,
+        .OTz6ee,
         .PGfkhc,
-        .X4Ebjb,
-        .II6i7d,
-        .ALlaKf {
-            color: #fff;
-            font-weight: 700;
-        }
-
-        /* player */
-        .dq2Yed {
-            background-color: rgb(45, 45, 45) !important;
-        }
-
-        /* player podcast title */
+        .TzqEyd,
+        .wv3SK,
+        .PRPYJc,
+        .Mji2k,
+        .eI5bkf,
+        .VGALGe,
+        .tsXz9,
+        .ldf2Je,
         .Ut8Gr {
-            color: #e1e1e1;
-            font-weight: 700;
+            color: var(--title) !important;
+            font-weight: 900 !important;
         }
 
-        /* time left, bottom left side*/
-        .MBPL8b {
-            color: #e8e8e8;
-            font-weight: 600;
+        /* Tap to go right arrow button */
+        .zJw79d,
+        .f4MdMc,
+        .JSLBqe {
+            background-color: var(--button) !important;
+            border: 0;
+            color: var(--title) !important;
+            font-weight: 700 !important;
         }
 
-        /* player icons */
-        .DPvwYc,
-        .UO8XJc {
-            color: #e1e1e1;
-        }
-
-        /* time left */
-        .oG0wpe {
-            color: #e8e8e8;
-            font-weight: 600;
-        }
-
-        /* google search */
-        .gb_pf,
-        .gb_mf,
-        .gb_Se,
-        .gb_Te.gb_mf,
-        .gb_3e,
+        /* Search bar */
+        .Ax4B8,
+        .yNVtPc,
         .gb_8e {
-            background-color: #555;
-            /*color: #e1e1e1*/
+            background-color: var(--button) !important;
+            color: var(--title) !important;
+            font-weight: 500 !important;
         }
 
-        /* Play episode button */
-        .TzKEec {
-            background-color: #555;
+        /* Media Player */
+        .d5Ncgc,
+        .DPvwYc {
+            background-color: var(--secondary) !important;
+            color: var(--title) !important;
         }
 
-        /* Search button */
-        .d1dlne,
-        .gb_3e,
-        .gb_Df,
-        .gb_wf,
-        .gb_zf {
-            background-color: #555;
-        }
-
-        /* Search button icon */
-        .gb_Te button svg,
-        .gb_Te button img {
-            color: #e8e8e8 !important;
-        }
-
-        /* Search text */
-        .Mxgq5c {
-            /* background-color: #555; */
-            color: #e8e8e8 !important;
-        }
-
-        /* Sidebar menu */
-        .gb_Nc,
-        .gb_Rc {
-            background-color: rgb(49, 49, 49) !important;
-
-        }
-
-        .fIqyif,
-        .TvLR0 {
-            color: #e8e8e8 !important;
-        }
-
-        /* Button on podcast episode page */
-        .wD7LYe {
-            border-color: #e8e8e8 !important;
-            border-radius: 18px !important;
+        .zQTmif,
+        .SSPGKf {
+            background-color: var(--secondary) !important;
         }
     }
 }
