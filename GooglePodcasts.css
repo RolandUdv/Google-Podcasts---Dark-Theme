@@ -47,7 +47,11 @@ domain("podcasts.google.com/") {
         .ALlaKf,
         .MBPL8b,
         .oG0wpe,
-        .QpaWg {
+        .QpaWg,
+        .yuTZxb,
+        .tX5qm,
+        .u0Mk7d,
+        .JL0hbc {
             color: var(--subcontent) !important;
             font-weight: 400 !important
         }
@@ -72,7 +76,12 @@ domain("podcasts.google.com/") {
         .VGALGe,
         .tsXz9,
         .ldf2Je,
-        .Ut8Gr {
+        .Ut8Gr,
+        .FyxyKd,
+        .SuNkYe,
+        .tdELcf,
+        .VPytgf,
+        .NoOODc {
             color: var(--title) !important;
             font-weight: 900 !important;
         }
@@ -80,9 +89,10 @@ domain("podcasts.google.com/") {
         /* Tap to go right arrow button */
         .zJw79d,
         .f4MdMc,
-        .JSLBqe {
+        .JSLBqe,
+        .pyK9td {
             background-color: var(--button) !important;
-            border: 0;
+            border: 0 !important;
             color: var(--title) !important;
             font-weight: 700 !important;
         }
@@ -106,6 +116,10 @@ domain("podcasts.google.com/") {
         .zQTmif,
         .SSPGKf {
             background-color: var(--secondary) !important;
+        }
+
+        .ugPjk {
+            color: var(--title) !important;
         }
     }
 }
