@@ -96,9 +96,14 @@ domain("podcasts.google.com/") {
         .kMNxad,
         .ZTClBb,
         .J3Ov7d,
-        .dnoInf {
+        .dnoInf,
+        .fIqyif {
             color: var(--title) !important;
             font-weight: 900 !important;
+        }
+
+        path {
+            color: var(--title) !important;
         }
 
         /* Tap to go right arrow button */
@@ -115,7 +120,8 @@ domain("podcasts.google.com/") {
         /* Search bar */
         .Ax4B8,
         .yNVtPc,
-        .gb_8e {
+        .gb_8e,
+        .gb_Ve {
             background-color: var(--button) !important;
             color: var(--title) !important;
             font-weight: 500 !important;
