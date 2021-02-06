@@ -2,8 +2,11 @@
 
 [![Install directly with Stylus](https://userstyles.org/styles/179958/google-podcasts-dark-theme)](https://userstyles.org/styles/179958/google-podcasts-dark-theme)
 
+## Note: The Stylish userstyle is no longer being updated!
+### If you want the latest updates, please copy this code and paste it into the extension.
+
 Dark Theme that applies to [podcasts.google.com](https://podcasts.google.com/).
-It can also automatically change based on if Dark Mode is enabled on your Operating System.
+It automatically turns on the Dark theme based on your system's Dark Mode settings.
 
 ***Note: This will only work on selected browsers on selected versions e.g: Google Chrome***
 
